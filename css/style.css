@@ -1,0 +1,44 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: rgb(225, 225, 225);
+}
+
+hr {
+    margin: 0px;
+}
+
+.logo-ikon{
+    width: 175px;
+    height: 40px;
+    background-image: url('../assets/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container > button {
+    height: 25px;
+}
+
+.section-container {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.section-container>header {
+    text-align: center;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+.name-input {
+    height: 24px;
+    width: 50%;
+    border: 1px solid antiquewhite;
+    border-radius: 16px;
+}
