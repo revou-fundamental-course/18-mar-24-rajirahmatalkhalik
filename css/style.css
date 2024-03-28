@@ -4,11 +4,12 @@
     justify-content: space-between;
     padding-left: 24px;
     padding-right: 24px;
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
 }
 
 hr {
-    margin: 0px;
+    margin: 1px;
 }
 
 .logo-ikon{
@@ -34,11 +35,25 @@ hr {
 
 .section-content-container {
     display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .name-input {
     height: 24px;
     width: 50%;
-    border: 1px solid antiquewhite;
-    border-radius: 16px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.section-content-form {
+    height: 400px;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    margin-left: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 3px;
+    justify-tracks: space-between;
 }
